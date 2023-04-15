@@ -10,3 +10,7 @@ network.host: 0.0.0.0
 #
 xpack.license.self_generated.type: basic
 xpack.security.enabled: true
+
+
+index.number_of_shards: 40
+index.number_of_replicas: 0
