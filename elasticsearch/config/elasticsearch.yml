@@ -10,3 +10,6 @@ network.host: 0.0.0.0
 #
 xpack.license.self_generated.type: basic
 xpack.security.enabled: true
+
+# set cache to 10% of heap
+indices.requests.cache.size: 10%
